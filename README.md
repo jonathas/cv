@@ -4,7 +4,7 @@ This repository contains the LaTeX source and compiled PDF of my up-to-date CV.
 
 ## 📄 Overview
 
-I’m a Senior Software Engineer with over 15 years of experience in backend and full-stack development, cloud architecture, and team leadership. Currently based in Prague, Czech Republic, and open to remote-first opportunities.
+I’m a Senior Software Engineer with 15+ years of experience in backend and full-stack development, cloud architecture, and team leadership. Currently based in Prague, Czech Republic, and open to remote-first opportunities.
 
 Key technologies I’ve worked with:
 
