@@ -1,0 +1,108 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{geometry}
+\geometry{margin=1in}
+\usepackage{enumitem}
+\usepackage{hyperref}
+\usepackage{xcolor}
+\definecolor{linkblue}{RGB}{0, 102, 204}
+\hypersetup{
+  colorlinks=true,
+  urlcolor=linkblue,
+  linkcolor=black,
+  citecolor=black
+}
+\usepackage{titlesec}
+\usepackage{parskip}
+\usepackage{lmodern}
+\usepackage{graphicx}
+\usepackage{tikz}
+\usepackage{wrapfig}
+\usepackage{fontawesome5}
+
+\titleformat{\section}{\large\bfseries}{}{0em}{}
+\titleformat{\subsection}{\normalsize\bfseries}{}{0em}{}
+
+\begin{document}
+
+\begin{minipage}[c]{0.25\textwidth}
+  \tikz\node[inner sep=0pt, rounded corners=8pt, clip] 
+    {\includegraphics[width=\linewidth]{profile.jpg}};
+\end{minipage}
+\hfill
+\begin{minipage}[c]{0.72\textwidth}
+  {\LARGE \textbf{Jonathas Ribeiro}} \\
+  Prague, Czech Republic \\
+  \textbf{Place of Birth:} Rio de Janeiro, Brazil \\
+  \textbf{Nationality:} Brazilian (Czech Permanent
+Resident) \\
+  \href{mailto:contact@jonathas.com}{contact@jonathas.com} \\
+  \href{https://www.linkedin.com/in/jonathasribeiro/}{linkedin.com/in/jonathasribeiro} \\
+  \href{https://github.com/jonathas}{github.com/jonathas} \\
+  \href{https://jonathas.com}{jonathas.com}
+\end{minipage}
+
+\vspace{1em}
+
+\section*{\faUser\hspace{0.5em}Profile}
+Senior Software Engineer with 15+ years of experience. I bring a deep commitment to quality, teamwork, and continuous improvement to every project.
+
+\section*{\faTools\hspace{0.5em}Key Skills}
+\begin{itemize}[leftmargin=*]
+  \item Backend: Node.js, TypeScript, Java, PHP, .NET
+  \item Frontend: React, Angular
+  \item DevOps \& Cloud: AWS, Terraform, Linux, Docker, Github Actions
+  \item Databases: PostgreSQL, MySQL, MongoDB
+  \item \textbf{Languages:} Portuguese (Native), English (C1 – CAE, EFCELT certifications), Spanish (B2), Czech (A2)
+\end{itemize}
+
+\section*{\faBriefcase\hspace{0.5em}Employment History}
+
+\subsection*{Senior Software Engineer \hfill Jan 2024 -- present}
+\textbf{Vacasa - Prague, Czech Republic (Hybrid)} \\
+Worked on projects supporting large-scale field operations with a strong focus on cloud architecture, performance, and workflow optimization.
+\begin{itemize}[leftmargin=*]
+  \item Designed and optimized serverless systems using AWS Lambda, Step Functions, SQS, and ECS.
+  \item Configured ECS auto-scaling and replaced embedded Nginx instances by placing API Gateway in front of the load balancer, simplifying the architecture and reducing resource usage.
+  \item Refactored a NestJS API to remove legacy dependencies, improving maintainability and scalability.
+  \item Led the transition from Retool to AWS Step Functions, implementing fully modular workflows entirely in Terraform to reduce costs and improve developer experience.
+  \item Built CI/CD pipelines using GitHub Actions to automate testing, deployment, and infrastructure provisioning.
+  \item Configured AWS DMS for change data capture (CDC) replication from MySQL to PostgreSQL, streamlining cross-database synchronization.
+\end{itemize}
+
+\subsection*{\textbf{Tech Lead / Senior Software Engineer} \hfill Jan 2022 -- Dec 2023}
+\textbf{CloudTalk – Prague, Czech Republic (Remote)} \\
+Directed the technical aspects of a voice platform project while mentoring a team of developers. Focused on architecture, quality, and engineering processes, working across the stack with modern technologies.
+
+\begin{itemize}[leftmargin=*]
+  \item Designed backend services using Node.js, NestJS, Fastify, GraphQL, and Apollo.
+  \item Promoted best practices, led code reviews, and supported CI/CD improvements.
+  \item Collaborated on frontend (Angular) and DevOps (Redis, MySQL, Kubernetes, AWS).
+\end{itemize}
+
+\subsection*{\textbf{Solutions Architect / Engineering Manager} \hfill Jan 2020 -- Dec 2021}
+\textbf{24i Media – Brno, Czech Republic (Hybrid)} \\
+Worked as a Solutions Architect and later also led a full-stack team as Engineering Manager. Handled documentation, estimation, architecture, and requirements gathering with clients. Managed sprints and ensured code quality through reviews. As a manager, led hiring processes, team capacity planning, and developer mentoring.
+
+\subsection*{{Senior Software Engineer / Node.js Lead} \hfill May 2018 -- Jan 2020}
+\textbf{24i Media (formerly Mautilus) – Brno, Czech Republic (Hybrid)} \\
+Promoted to lead developer for the Node.js domain after 24i acquired Mautilus. Took on team leadership responsibilities while continuing backend development in Node.js. Also worked on new projects using React and AWS Lambdas in a serverless architecture.
+
+\subsection*{Lead Backend Developer \hfill Aug 2016 -- May 2018}
+\textbf{Mautilus - Brno, Czech Republic (On-site)} \\
+Worked on backend projects using Java (Spring), .NET, and Node.js. Delivered the HbbTV Events Manager system for TV Nova (Node.js + Angular) and deployed services to Linux servers using Docker, MongoDB, Redis and RabbitMQ.
+
+\subsection*{Software Developer \hfill Jul 2015 -- Mar 2016}
+\textbf{Pixmania - Brno, Czech Republic (On-site)} \\
+Developed internal systems using PHP, JavaScript, jQuery, and MySQL, with integrations in Oracle and PL/SQL. Maintained legacy platforms with CodeIgniter, Smarty, and CMS tools like WordPress and Drupal. Also supported HR by interviewing Portuguese-speaking candidates for the CS Portugal team.
+
+\subsection*{Other Roles (2008–2016)}
+\textbf{Freelancer at jonathas.com, Micro University, NETbureau Comunicação Digital} \\
+Developer, DevOps, Systems Analyst – working with PHP, CodeIgniter, MySQL, ASP.NET, AWS, and Linux. \href{https://www.linkedin.com/in/jonathasribeiro/}{For more info, check my LinkedIn profile which contains full descriptions and projects.} \\
+
+\section*{\faGraduationCap\hspace{0.5em}Education}
+\textbf{Universidade Estácio de Sá}, Rio de Janeiro — Bachelor's in Information Systems (2015) \\
+\textbf{Universidade Veiga de Almeida}, Rio de Janeiro — Bachelor's in Computer Science (2012)
+
+\end{document}
